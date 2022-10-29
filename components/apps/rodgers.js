@@ -125,9 +125,9 @@ function About() {
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
                 <li className=" list-pc">I'm a <span className=" font-medium">Graduate Student</span> currently pursuing Information Technology. I've completed my 3 month attachment at <u className=' cursor-pointer '> <a href="https://knowledgehub.devolution.go.ke/kh/infrastructure/state-department-for-shipping-and-maritime/" target={"_blank"}>State Department for Shipping and Maritime</a> </u>, and now I'm looking for internship opportunities! ( Hit me up <a className='text-underline' href='mailto:butasi.rodgers@gmail.com'><u>@butasi.rodgers@gmail.com</u></a> :) )</li>
-                <li className=" mt-3 list-building"> I enjoy building awesome softwares that solve practical problems.</li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing minecraft or watching <a href="https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A" target="_blank" rel="noreferrer"> tom scott's videos.</a></li>
-                <li className=" mt-3 list-star"> And I also have interest in Deep Learning & Computer Vision!</li>
+                <li className=" mt-3 list-building"> I enjoy building awesome softwares and tinkering with new Technology.</li>
+                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing ps4 games or watching <a href="https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A" target="_blank" rel="noreferrer"> tom scott's videos.</a></li>
+                <li className=" mt-3 list-star"> And I also have interest in Arduino, Micro-controllers & Linux!</li>
             </ul>
         </>
     )
@@ -145,19 +145,36 @@ function Education() {
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Pandit Deendayal Energy University- PDEU
+                        Christ The King Primary
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
-                    <div className=" text-sm md:text-base">Information Technology</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 9.35/10</div>
+                    <div className=" text-sm md:text-base">KCPE</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">B+ &nbsp; 373/500</div>
+                </li>
+
+                <li className="list-disc mt-5">
+                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                        St. Mary's Kibabii Boys High
+                    </div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2013 - 2016</div>
+                    <div className=" text-sm md:text-base">KCSE</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">C &nbsp; Plain</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Class 12<sup>th</sup> (GSEB)
+                        The Cooperative University of Kenya
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2016 - 2018</div>
-                    <div className=" text-sm md:text-base">Maths, Physics, Chemistry</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 94.1%</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2013 - 2016</div>
+                    <div className=" text-sm md:text-base">Information Technology</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Diploma &nbsp; Lower Credit</div>
+                </li>
+                <li className="list-disc mt-5">
+                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                        The Cooperative University of Kenya
+                    </div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
+                    <div className=" text-sm md:text-base">Business Information Technology</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Degree &nbsp; 94.1%</div>
                 </li>
             </ul>
         </>
@@ -226,19 +243,19 @@ function Projects() {
     const project_list = [
         {
             name: "UbuntuOS Portfolio",
-            date: "Apr 2021",
-            link: "https://github.com/rodgersbutasi/rodgersbutasi.github.io",
+            date: "Oc 2022",
+            link: "https://github.com/butasi/butasiarch.github.io.git",
             description: [
                 "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
             ],
             domains: ["javascript", "next.js", "tailwindcss"]
         },
         {
-            name: "Chrome Extension React Bolierplate",
-            date: "Dec 2021",
-            link: "https://github.com/rodgersbutasi/chrome-extension-react-boilerplate",
+            name: "Deploy your Nuxt.js project to Vercel",
+            date: "Oct 2022",
+            link: "https://github.com/butasi/nuxtjs.git",
             description: [
-                "A boilerplate code to build a chrome extension with react and webpack",
+                "Deploy your Nuxt.js project to Vercel with zero configuration.",
             ],
             domains: ["javascript", "chrome-extension"]
         },
@@ -251,51 +268,7 @@ function Projects() {
             ],
             domains: ["javascript", "tailwindcss"]
         },
-        {
-            name: "Ad Free Spotify",
-            date: "Jun 2021",
-            link: "https://github.com/rodgersbutasi/ad-free-spotify",
-            description: [
-                "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
-            ],
-            domains: ["javascript", "chrome-extension"]
-        },
-        {
-            name: "economist.com Unlocked",
-            date: "Mar 2021",
-            link: "https://github.com/rodgersbutasi/economist.com-unlocked",
-            description: [
-                "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
-            ],
-            domains: ["javascript", "chrome-extension"]
-        },
-        {
-            name: "Flutter banking app",
-            date: "Jan 2021",
-            link: "https://github.com/rodgersbutasi/flutter-banking-app",
-            description: [
-                "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
-            ],
-            domains: ["flutter", "firestore", "dart", "firebase auth"]
-        },
-        {
-            name: "CPU scheduling application",
-            date: "Dec 2020",
-            link: "https://github.com/rodgersbutasi/CPU-Scheduling-APP-React-Native",
-            description: [
-                "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
-            ],
-            domains: ["react-native", "javascript"]
-        },
-        {
-            name: "Meditech Healthcare WebApp",
-            date: "Nov 2020",
-            link: "https://github.com/rodgersbutasi/Meditech-Healthcare",
-            description: [
-                "Developed Web Application to predict and diagnose diseases from x-ray images.",
-            ],
-            domains: ["javascript", "html5", "sass", "firebase", "tensorflow"]
-        },
+        
         {
             name: "Problem Recommendation System",
             date: "Sep 2020",
@@ -343,7 +316,7 @@ function Projects() {
                     <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
                 </div>
             </div>
-            <iframe src="https://github.com/sponsors/rodgersbutasi/card" title="Sponsor rodgersbutasi" className='my-4 w-5/6 md:w-3/4' ></iframe>
+            <iframe src="https://github.com/sponsors/butasi/card" title="Sponsor rodgersbutasi" className='my-4 w-5/6 md:w-3/4' ></iframe>
 
             {
                 project_list.map((project, index) => {
