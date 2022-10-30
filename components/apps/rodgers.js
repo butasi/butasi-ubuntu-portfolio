@@ -164,7 +164,7 @@ function Education() {
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
                         The Cooperative University of Kenya
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2013 - 2016</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2017 - 2018</div>
                     <div className=" text-sm md:text-base">Information Technology</div>
                     <div className="text-sm text-gray-300 font-bold mt-1">Diploma &nbsp; Lower Credit</div>
                 </li>
@@ -362,6 +362,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Rodgers-Patel-Resume.pdf" title="Rodgers Butasi resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/rodgers-butasi-resume.pdf" title="Rodgers Butasi resume" frameBorder="0"></iframe>
     )
 }
